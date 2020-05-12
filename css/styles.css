@@ -106,3 +106,24 @@ footer {
 }
 
 /* Портфолио */
+
+/* Фильтр */
+.filter-list .link {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.filter-list .link:hover,
+.filter-list .link:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+/* Портфолио */
+.portfolio-list .title {
+  color: var(--title-text-color);
+}
+.portfolio-list .subtitle {
+  color: var(--primary-text-color);
+}
+.portfolio-list .text {
+  color: var(--accent-color);
+}
